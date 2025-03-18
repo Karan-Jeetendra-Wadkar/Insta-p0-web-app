@@ -1,0 +1,39 @@
+
+
+.reels{
+    
+    position: absolute;
+    top: 43px;
+    left: 350px;
+    width: 83%;
+    /* height: 100%; */
+    /* width: 1320px; */
+    
+     background-color: white;
+     z-index: 1;
+     
+    }
+    
+
+    .reels img{
+        width: 500px;
+        height: 850px;
+        &:hover{
+            width: 550px;
+            border: 7px solid rgb(167, 160, 193);
+         }
+    
+    }
+    .reelBox{
+        position: relative;
+        left: 142px;
+        width: 80%;
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     text-align: center;
+     gap: 16px;
+    
+    }
+
+    
+    

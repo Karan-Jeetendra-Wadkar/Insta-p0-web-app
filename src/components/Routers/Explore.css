@@ -1,0 +1,56 @@
+
+
+.explore{
+    
+    position: absolute;
+    top: 43px;
+    left: 350px;
+    width: 83%;
+    /* height: 100%; */
+    /* width: 1320px; */
+     background-color: white;
+     z-index: 1;
+    
+    }
+    
+    .explore img{
+        width: 100%;
+        &:hover{
+            width: 110%;
+            border: 7px solid rgb(210, 212, 69);
+         }
+    
+    }
+    .exploreBox{
+        position: relative;
+        left: 170px;
+        width: 80%;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     text-align: center;
+     gap: 16px;
+    
+    
+    }
+    
+    .iconBox{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        padding: 4px;
+    
+        
+    }
+    
+    .iconBtn{
+        display: flex;
+        gap: 16px;
+    }
+    
+    .Btn{
+        width: 34px;
+        height: 32px;
+        
+    }
+    
+    

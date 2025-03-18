@@ -1,0 +1,239 @@
+.Box2{
+
+    width: 55%;
+    flex-direction: column;
+    border-left: 1px solid black;
+  }
+  
+  .Box3{
+    width: 28%;
+  
+  }
+  
+
+.main{
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.statusBox{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    overflow-x:auto ;
+    cursor: pointer;
+}
+.statusBox::-webkit-scrollbar{
+    display: none;
+}
+.individualStory{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.statusImg{
+    width: 70px;
+    height: 70px;
+    padding: 12.8px;
+    
+}
+.Simg{
+    width: 100%;
+    height: 100%;
+    border-radius:100%;
+    border: 5px solid purple;
+}
+.profileName{
+    font-size:larger ;
+    padding-left:26px;
+    
+}
+
+/*Post Content css*/
+
+.postInfo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: large;
+}
+
+.postBox{
+    width: 60%;
+    cursor: pointer;
+
+}
+
+.borderBox{
+    margin-top: 25px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid black;
+}
+
+.postIconImg{
+    width:60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 7px solid purple;
+    margin: 0px 10px;
+    
+}
+.postTime{
+    color:rgb(86, 114, 114);
+    font-size: x-large;
+}
+
+.postDetails{
+    width: 100%;
+}
+
+.postImg{
+    width: 100%;
+    height:650px;
+}
+
+.iconBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    padding: 4px;
+
+    
+}
+
+.iconBtn{
+    display: flex;
+    gap: 16px;
+}
+
+.Btn{
+    width: 34px;
+    height: 32px;
+    
+}
+
+.likeDetailBox{
+    margin-left: 7px;
+    font-weight:600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.likeIcon{
+   
+    width: 20px;
+    border-radius: 100%; 
+}
+
+
+.likeIcon2{
+    
+    position: relative;
+    right: 9px;
+    width: 20px;
+    border-radius: 100%; 
+}
+
+.aboutPost{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.postName{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.comment{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.addComment{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #999999;
+}
+.addComment>button{
+    border: none;
+    background-color: white;
+    color: #7b6363;
+    font-size: 18px;
+    &:hover{
+        background-color: rgb(79, 34, 203);
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+.Acomment{
+    font-size: 18px;
+    width: 100%;
+    height: 34px;
+    border: none;
+}
+
+.commentCSS{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #999999;
+}
+
+.mobileScreen{
+    display: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width:920px){
+    .main{
+        width: 192%;
+        padding: 0px 1px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+ 
+    .statusBox{
+        width: 100%;
+    }
+
+    .postBox{
+        width: 100%;
+    }
+    .mobileScreen{
+        width: 100%;
+        display: inline;
+        margin-left: 43px;
+       
+    }
+    .mobileLogo{
+        width: 142px;
+        height: 42px;
+    
+    }
+
+    
+}

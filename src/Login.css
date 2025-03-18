@@ -1,0 +1,128 @@
+.loginDisplay{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    background-color: white;
+    margin: -8px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.instaBoxes{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;
+
+}
+
+.mainBox{
+    border: 1px solid black;
+    height: 400px;
+    padding: 70px;
+
+}
+
+.instagram{
+    width: 300px;
+    height: 70px;
+
+}
+
+.Linputs{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inputSize{
+    width: 100%;
+    height: 52px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button>button{
+    width: 100%;
+    height: 43px;
+    border-radius: 7px;background-color: rgb(99, 106, 239);
+    color: white;
+    &:hover{
+        background-color: rgb(25, 29, 113);
+        color: black;
+    }
+}
+
+hr{
+    width: 150px;
+
+}
+
+.line{
+    display: flex;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.fbLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.fbLogin>h3{
+    color: blue;
+    &:hover{
+        color: black;
+    }
+}
+
+.fbLogo{
+    width: 34px;
+    height: 34px;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+}
+
+.midBox{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.signUp{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.signImg{
+    width: 170px;
+    height: 60px;
+}
+.appFlex{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.signInImg{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    
+}
+

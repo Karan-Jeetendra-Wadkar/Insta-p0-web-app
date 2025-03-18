@@ -1,0 +1,89 @@
+.App{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .sticky{
+    position: fixed;
+  }
+  .Dblock{
+   background-color: rgb(41, 41, 156);
+   text-decoration: none;
+   color: white;
+   padding: px;
+   border-radius: 16px;
+   border: 1px solid black;
+  }
+  .Box1{
+    width: 17%;
+  
+  }
+  
+  .Box2{
+  
+    width: 55%;
+    flex-direction: column;
+    border-left: 1px solid black;
+  }
+  
+  .Box3{
+    width: 28%;
+  
+  }
+  
+  .text{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  @media screen and (min-width:1023px) and (max-width:1140px) {
+  
+    .Box3{
+      display: none;
+    }
+  
+    .Box1{
+      width: 25%;
+    }
+  
+    .Box2{
+      width: 75%;
+    }
+  
+    .explore{
+      
+      position: absolute;
+      top: 43px;
+      left: 400px;
+      width: 1320px;
+      height: 950px;
+       background-color: aqua;
+       z-index: 1;
+       
+      }
+    
+  }
+  /*max 920 to 1030*/
+  @media screen and (min-width:320px) and  (max-width:920px) {
+    .Box1{
+      display: none;
+    }
+  
+    .Box3{
+      display: none;
+    }
+  
+    .Box2{
+      width: 100%;
+      border: none;
+    }
+  
+   
+  }
+  
+  
+  

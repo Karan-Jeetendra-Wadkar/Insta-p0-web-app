@@ -1,0 +1,90 @@
+.mainPart{
+    width: 100%;
+    margin-top: 81px;
+    position: relative;
+    right: 20px;
+    /* cursor: pointer; */
+}
+
+.switch{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    
+    
+    
+}
+
+.suggested{
+    width: 100%;
+
+}
+
+.switchImg{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+
+}
+
+.switchto{
+padding: 20px;
+font-size:20px ;
+}
+
+.acName{
+    color:rgb(86, 114, 114);
+
+}
+
+.switchBtn{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    margin-left: 69px;
+    position: absolute;
+    left: 280px;
+}
+
+.suggestedName{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.seeAllBtn{
+    position: relative;
+    left: 193px;
+    font-weight: bold;
+}
+
+.suggestN{
+    font-size: 22px;
+    color:rgb(68, 94, 94);
+}
+
+.secondBtn{
+    color: blue;
+    margin-left: 103px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 250px;
+
+}
+
+.aboutDoc{
+    margin-top: 52px;
+    font-size: 18px;
+    color:rgb(175, 170, 197);
+    padding-right: 7px;
+    word-spacing: 2px;
+    margin-bottom: 34px;
+
+}
+.footer{
+    font-size: 18px;
+    color:rgb(175, 170, 197);
+    padding-right: 7px;
+}

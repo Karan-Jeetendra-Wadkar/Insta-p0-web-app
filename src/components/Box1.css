@@ -1,0 +1,54 @@
+.firstBox{
+    position: fixed;
+    
+
+}
+
+
+.Ilogo{
+    width: 110px;
+    height: 30px;
+
+    
+}
+
+.Ilogoimg{
+    width: 154%;
+    padding: 30px;
+
+    
+}    
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.Icon{
+    display: flex;
+    height: 59px;
+    align-items: center;
+    padding-left:34px ;
+    font-size: 22px;
+    &:hover{background-color:#ededed};
+    margin-bottom: 20px;   
+    cursor: pointer;
+}
+.Name{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.profilePic{
+    width: 38px;
+    border-radius: 20px;
+    margin:0 23px 0 0;
+    
+
+}
+
+.Name>a{
+    text-decoration: none;
+    color: black;
+}
