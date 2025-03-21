@@ -1,5 +1,5 @@
 
-.loginDisplay{
+.loginDisplayL{
     width: 100%;
     position: fixed;
     top: 70px;
@@ -137,7 +137,7 @@ hr{
 
 
 @media only screen and (max-width: 431px) {
-    .loginDisplay{
+    .loginDisplayL{
         width: 100%;
         position: fixed;
         right: -18px;
@@ -148,6 +148,7 @@ hr{
         background-color: white;
         margin: -8px;
         padding: 30px;
+        margin-top: 25px;
         justify-content: center;
     }
  

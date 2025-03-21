@@ -38,9 +38,8 @@
     text-decoration: none;
     color: black;
   }
-  
-  
-  @media screen and (min-width:1023px) and (max-width:1140px) {
+  /* @media screen and (min-width:1023px) and (max-width:920px) */
+  @media only screen and (max-width: 600px) {
   
     .Box3{
       display: none;
@@ -68,7 +67,7 @@
     
   }
   /*max 920 to 1030*/
-  @media screen and (min-width:320px) and  (max-width:920px) {
+  @media screen and (min-width:320px) and  (max-width:520px) {
     .Box1{
       display: none;
     }

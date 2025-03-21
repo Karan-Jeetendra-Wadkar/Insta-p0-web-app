@@ -204,7 +204,7 @@
 }
 
 
-@media screen and (min-width:320px) and (max-width:920px){
+@media screen and (min-width:320px) and (max-width:520px){
     .main{
         width: 192%;
         padding: 0px 1px;

@@ -62,7 +62,7 @@ const Login = () => {
   console.log(form)
 
   return (
-    <div className='loginDisplay'>
+    <div className='loginDisplayL'>
 
       <div className="instaBoxesL">
 
