@@ -4,7 +4,7 @@
     
     position: absolute;
     top: 43px;
-    left: 350px;
+    left: 250px;
     width: 83%;
     /* height: 100%; */
     /* width: 1320px; */
@@ -16,17 +16,17 @@
     
 
     .reels img{
-        width: 500px;
-        height: 850px;
+        width: 450px;
+        height: 750px;
         &:hover{
-            width: 550px;
+            width: 500px;
             border: 7px solid rgb(167, 160, 193);
          }
     
     }
     .reelBox{
         position: relative;
-        left: 142px;
+        left: 34px;
         width: 80%;
      display: grid;
      grid-template-columns: repeat(1,1fr);

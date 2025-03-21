@@ -6,14 +6,14 @@
 
 
 .Ilogo{
-    width: 110px;
+    width: 100px;
     height: 30px;
 
     
 }
 
 .Ilogoimg{
-    width: 154%;
+    width: 111%;
     padding: 30px;
 
     
@@ -22,15 +22,15 @@
 .Home{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 61px;
 }
 
 .Icon{
     display: flex;
-    height: 59px;
+    height: 38px;
     align-items: center;
     padding-left:34px ;
-    font-size: 22px;
+    font-size: 18px;
     &:hover{background-color:#ededed};
     margin-bottom: 20px;   
     cursor: pointer;
@@ -41,7 +41,7 @@
 }
 
 .profilePic{
-    width: 38px;
+    width: 30px;
     border-radius: 20px;
     margin:0 23px 0 0;
     

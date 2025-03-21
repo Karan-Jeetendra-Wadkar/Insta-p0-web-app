@@ -64,14 +64,14 @@ const Login = () => {
   return (
     <div className='loginDisplay'>
 
-      <div className="instaBoxes">
+      <div className="instaBoxesL">
 
   <div className="mainBox">
            <div className="instaLogin">
-          <img className='instagram' src={InstaGram} alt="instaLogo" />
+          <img className='instagramL' src={InstaGram} alt="instaLogo" />
            </div>
         <div className="Linputs">
-          <input className='inputSize' value={form.mobile} onChange={(e)=> setForm({ ...form , mobile:e.target.value})} type="number" placeholder='Phone Number or Email' />
+          <input className='inputSize' value={form.mobile} onChange={(e)=> setForm({ ...form , mobile:e.target.value})} type="number" placeholder='Phone Number' />
           <input className='inputSize' value={form.password} onChange={(e)=> setForm({ ...form , password:e.target.value})} type="password" placeholder='password' />
         </div>
         <div className="button">

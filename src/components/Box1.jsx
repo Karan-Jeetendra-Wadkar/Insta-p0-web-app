@@ -47,7 +47,7 @@ const Box1 = () => {
       <Link  className="text" to={"/"}>
       <div className="Home">
         <div className="Icon">
-        <HomeIcon sx={{fontSize:"40px",margin:"0 20px 0 0"}} />
+        <HomeIcon sx={{fontSize:"30px",margin:"0 20px 0 0"}} />
         <div className="Name">
           Home
         </div> 
@@ -56,7 +56,7 @@ const Box1 = () => {
       </div>
       </Link>
       <div className="Icon">
-          <SearchIcon sx={{fontSize:"40px",margin:"0 20px 0 0"}} />
+          <SearchIcon sx={{fontSize:"30px",margin:"0 20px 0 0"}} />
         <div className="Name">
           Search
         </div> 
@@ -89,7 +89,7 @@ const Box1 = () => {
 
       <Link className="text" to={"/notification"}>
       <div className="Icon">
-          <FavoriteBorderIcon sx={{fontSize:"40px",margin:"0 20px 0 0"}} />
+          <FavoriteBorderIcon sx={{fontSize:"30px",margin:"0 20px 0 0"}} />
         <div className="Name">
           Notification
         </div> 
@@ -97,7 +97,7 @@ const Box1 = () => {
       </Link>
       <Link  className="text" to={"/create"}>
       <div className="Icon">
-          <AddBoxOutlinedIcon sx={{fontSize:"40px",margin:"0 20px 0 0"}} />
+          <AddBoxOutlinedIcon sx={{fontSize:"30px",margin:"0 20px 0 0"}} />
         <div className="Name">
           Create
         </div> 

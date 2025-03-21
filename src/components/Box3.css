@@ -1,6 +1,6 @@
 .mainPart{
     width: 100%;
-    margin-top: 81px;
+    margin-top: 52px;
     position: relative;
     right: 20px;
     /* cursor: pointer; */
@@ -10,7 +10,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 7px;
     
     
     
@@ -22,15 +22,15 @@
 }
 
 .switchImg{
-    width: 65px;
-    height: 65px;
+    width: 43px;
+    height: 43px;
     border-radius: 100%;
 
 }
 
 .switchto{
-padding: 20px;
-font-size:20px ;
+padding: 7px;
+font-size:15px ;
 }
 
 .acName{
@@ -39,12 +39,12 @@ font-size:20px ;
 }
 
 .switchBtn{
-    font-size: 16px;
+    font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
     margin-left: 69px;
     position: absolute;
-    left: 280px;
+    left: 160px;
 }
 
 .suggestedName{
@@ -55,36 +55,36 @@ font-size:20px ;
 
 .seeAllBtn{
     position: relative;
-    left: 193px;
+    left: 98px;
     font-weight: bold;
 }
 
 .suggestN{
-    font-size: 22px;
+    font-size: 18px;
     color:rgb(68, 94, 94);
 }
 
 .secondBtn{
     color: blue;
-    margin-left: 103px;
-    font-size: 16px;
+    margin-left: 26px;
+    font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    left: 250px;
+    left: 205px;
 
 }
 
 .aboutDoc{
     margin-top: 52px;
-    font-size: 18px;
+    font-size: 14px;
     color:rgb(175, 170, 197);
     padding-right: 7px;
     word-spacing: 2px;
-    margin-bottom: 34px;
+    margin-bottom: 25px;
 
 }
 .footer{
-    font-size: 18px;
+    font-size: 14px;
     color:rgb(175, 170, 197);
     padding-right: 7px;
 }
